@@ -1,7 +1,7 @@
 # Личный проект «Пинк» 
 
 * Студент: [Anastasia Zhuravleva](https://up.htmlacademy.ru/adaptive/22/user/487925).
-* Наставник: Алексей Елькин.
+* Наставник: [Алексей Елькин](https://htmlacademy.ru/profile/alex_elkin)
 
 ---
 
