@@ -47,7 +47,7 @@
 			<h2 class="visually-hidden">Публикации</h2>
 			<div class="publication__wrapper">
 				<div class="publication__title">
-					<p class="publication__title--text">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+					<p class="publication__title-text">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
 				</div>
 				<figure class="photo">
 					<a class="photo-link" title="Открыть фотографию в полном размере">
@@ -192,32 +192,34 @@
 					Выкладывайте все, что накопилось в телефоне!
 				</p>
 				<form class="filter" action="https://echo.htmlacademy.ru" method="post">
-					<div class="filter__tools">
+					<div class="filter-tools">
 						<input type="radio" value="filter-crop" id="filter-crop" name="filter-crop" checked>
 						<input type="radio" value="filter-fill" id="filter-fill" name="filter-fill">
 						<input type="radio" value="filter-contrast" id="filter-contrast" name="filter-contrast">
-						<div class="filter__tools--controls">
-							<label class="filter__toggle  filter__toggle--crop" for="filter-crop">
+						<div class="filters-tools filter-toggle-controls">
+							<label class="filter-toggle filter-toggle--crop" for="filter-crop">
 							</label>
-							<label class="filter__toggle  filter__toggle--fill" for="filter-fill">
+							<label class="filter-toggle  filter-toggle--fill" for="filter-fill">
 							</label>
-							<label class="filter__toggle  filter__toggle--contrast" for="filter-contrast">
+							<label class="filter-toggle  filter-toggle--contrast" for="filter-contrast">
 							</label>
 						</div>
-						<div class="range__controls">
-							<div class="range__controls--wrap  wrap--crop">
-								<div class="range__filter  range__filter--crop"></div>
+						<div class="range-controls range-filter">
+							<div class="range-controls-wrap">
+								<div class="range-controls range-controls--crop">
+									<div class="range-filter range-filter--crop"></div>
+								</div>
+								<div class="range-controls range-controls--fill">
+									<div class="range-filter range-filter--fill"></div>
+								</div>
+								<div class="range-controls range-controls--contrast">
+									<div class="range-filter range-filter--contrast"></div>
+								</div>
 							</div>
-							<div class="range__controls--wrap  wrap--fill">
-								<div class="range__filter  range__filter--fill"></div>
-							</div>
-							<div class="range__controls--wrap  wrap--contrast">
-								<div class="range__filter  range__filter--contrast"></div>
-							</div>
-						</div>
-						<div class="filter__buttons">
-							<input class="button  button__submit--photo  button--active" id="submit-button" type="submit" value="Запостить">
-							<input class="button  button__reset--photo  button--disabled" id="reset-button" type="reset" value="Отмена">
+						</div>						
+						<div class="filter__button">
+							<button class="button  button--submit--photo  button--active" type="submit">Запостить</button>
+							<button class="button  button--reset--photo  button--disabled" type="reset">Отмена</button>
 						</div>
 					</div>
 				</form>
